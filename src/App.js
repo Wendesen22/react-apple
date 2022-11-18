@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Header from './CommonResource/Header'
-import Footer from './CommonResource/Footer'
-import Main from './CommonResource/Main'
-import './CommonResource/css/styles.css'
-import './CommonResource/css/bootstrap.css'
+import Header from './commonResource/header/Header'
+import Footer from './commonResource/footer/Footer'
+import Main from './commonResource/main/Main'
+import './commonResource/css/styles.css'
+import './commonResource/css/bootstrap.css'
 import 'font-awesome/css/font-awesome.min.css'
 
 function App() {

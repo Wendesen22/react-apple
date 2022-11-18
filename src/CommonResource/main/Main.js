@@ -1,10 +1,10 @@
 import React from 'react'
-import AppleTv from './images/icons/apple-tv-logo.png'
-import Banker from './images/home/banker.png'
-import WatchS5 from './images/icons/watch-series5-logo.png'
-import Arcade from './images/icons/arcade.png'
+import AppleTv from '../images/icons/apple-tv-logo.png'
+import Banker from '../images/home/banker.png'
+import WatchS5 from '../images/icons/watch-series5-logo.png'
+import Arcade from '../images/icons/arcade.png'
 
-export default function main() {
+export default function Main() {
   return (
     <div>
       

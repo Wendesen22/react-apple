@@ -1,5 +1,5 @@
 import React from 'react'
-import Flag from './images/icons/16.png'
+import Flag from '../images/icons/16.png'
 
 export default function Footer() {
   return (
