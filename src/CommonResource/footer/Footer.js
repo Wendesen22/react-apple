@@ -1,5 +1,17 @@
 import React from 'react'
 import Flag from '../images/icons/16.png'
+import './toggle'
+// window.addEventListener("resize", listner);
+//   $(".col-sm-12  h3").on("click", listner);
+//   function listner(e) {
+//     console.log(e.type);
+//     if (window.innerWidth <= 768 && e.type == "click") {
+//       $(e.target).toggleClass("expanded");
+//       $(e.target).next().slideToggle(1000);
+//     } else if (window.innerWidth > 768 && e.type == "resize") {
+//       $(".col-sm-12  ul").show();
+//     }
+//   }
 
 export default function Footer() {
   return (
@@ -12,7 +24,7 @@ export default function Footer() {
 				Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for 3 months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other <a href="https://www.apple.com/promo/">terms </a> apply.</p >
 			</div>
 			<div className="footer-links-wrapper row"> 
-				<div className="links-wrapper-1 col-sm-12 col-md">
+				<div className="links-wrapper-1 col-sm-12 col-md expanded">
 					<h3>Shop and Learn</h3>
 					<ul>
 						<li><a href="#/">Mac</a></li>
