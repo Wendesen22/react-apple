@@ -11,10 +11,3 @@ $(document).on("click", ".footer-links-wrapper h3", function () {
     window.location.reload(false);
   });
 
-//   .footer-links-wrapper h3.expanded:after {
-//     font-family: "FontAwesome";
-//     content: "\0058";
-//     padding-left: 10px;
-//     position: absolute;
-//     right: 25px;
-//   }
