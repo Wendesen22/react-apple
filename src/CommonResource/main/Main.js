@@ -5,9 +5,8 @@ import WatchS5 from '../images/icons/watch-series5-logo.png'
 import Arcade from '../images/icons/arcade.png'
 
 export default function Main() {
-  return (
-    <div>
-      
+return (
+<div> 
 <section className="alert-section top-50">
 		<div className="container">
 			<div className="alert-title">
@@ -18,7 +17,7 @@ export default function Main() {
 				For service and support, visit <a href="https://support.apple.com/">support.apple.com</a>.
 			</div>
 		</div>
-	</section>
+</section>
 
 	{/* <!-- First section starts here --> */}
 	<section className="first-hightlight-wrapper">
@@ -45,7 +44,7 @@ export default function Main() {
 			</div>
 		</div>
 	</section>
-	{/* <!-- First section starts here --> */}
+	{/* <!-- First section ends here --> */}
 
 	{/* <!-- Second section starts here --> */}
 	<section className="second-hightlight-wrapper">
@@ -75,7 +74,7 @@ export default function Main() {
 			</div>
 		</div>
 	</section>
-	{/* <!-- Second section starts here --> */}
+	{/* <!-- Second section ends here --> */}
 
 	{/* <!-- Third section starts here --> */}
 	<section className="third-hightlight-wrapper">
@@ -103,7 +102,8 @@ export default function Main() {
 	{/* <!-- Third section ends here --> */}
 
 	{/* <!-- Fourth section starts here --> */}
-	<section className="fourth-heghlight-wrapper">
+	
+	<div className="fourth-heghlight-wrapper">
 		<div className="container-fluid">
 			<div className="row">
 				<div className="left-side-wrapper col-sm-12 col-md-6">
@@ -141,7 +141,8 @@ export default function Main() {
 				</div>					
 			</div>
 		</div> 
-	</section>
+	</div>
+
 	{/* <!-- Fourth section ends here --> */}
 
 	{/* <!-- Fifth section starts here --> */}
@@ -230,8 +231,9 @@ export default function Main() {
 			</div>
 		</div> 
 	</section>
+	</div>
 
 
-    </div>
+   
   )
 }
